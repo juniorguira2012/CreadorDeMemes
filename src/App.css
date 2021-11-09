@@ -2,7 +2,9 @@
   text-align: center;
 }
 
-.App-logo {
+
+/*LOGO DE REACT*/
+/*.App-logo {
   height: 40vmin;
   pointer-events: none;
 }
@@ -35,4 +37,26 @@
   to {
     transform: rotate(360deg);
   }
+}*/
+
+.meme span{
+    position: absolute;
+    margin-top: 60px;
+    width: 100%;
+    left: 0px;
+    font-size: 38px;
+    font-style:inherit;
+    color: white;
+    text-shadow: -1px -1px white, 2px 2px rgb(17, 16, 16);
+}
+.meme span:nth-child(3){
+  margin-top: 350px;
+}
+.meme img{
+  width: 550px;
+
+}
+
+body{
+  background: black;
 }
